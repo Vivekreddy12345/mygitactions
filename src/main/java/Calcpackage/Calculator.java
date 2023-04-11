@@ -1,6 +1,7 @@
 package Calcpackage;
 
 public class Calculator {
+	//Making  simple calculator functions
 	 public int add(int x, int y) {
 	     return x + y;
 	 }
