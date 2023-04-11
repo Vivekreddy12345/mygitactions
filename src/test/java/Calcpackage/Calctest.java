@@ -28,6 +28,6 @@ public class Calctest {
 	        when(calculator.add(2, 3)).thenReturn(5);
 	        int result = calculator.add(2, 3);
 	        verify(calculator).add(2, 3);
-	         assertEquals("Unexpected result", 5, result);
+	         assertEquals(5, result);
 	    }
 }
