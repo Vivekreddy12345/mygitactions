@@ -13,7 +13,7 @@ public class Calculator {
 	 public int multiply(int x, int y) {
 	     return x * y;
 	 }
-
+//Exception throw
 	 public int divide(int x, int y) throws ArithmeticException {
 	     if (y == 0) {
 	         throw new ArithmeticException("Cannot divide by zero.");
